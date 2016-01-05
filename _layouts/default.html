@@ -1,0 +1,21 @@
+{% include header.html %}
+
+{% assign pages_list = site.pages %}
+{% assign group = 'navigation-top' %}
+{% include navigation_top.html %}
+
+<div class="container">
+<div class="row">
+    <div class="col-md-12">
+{{ content }}
+        </div>
+    </div>
+</div>
+
+{% assign pages_list = site.pages %}
+{% assign group = 'navigation-bottom' %}
+{% include navigation_bottom.html %}
+
+{% include footer.html %}
+
+

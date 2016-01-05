@@ -1,0 +1,27 @@
+{
+  "name": "PHPEurope",
+  "homepage": "https://github.com/PHPEurope/phpeurope.github.io",
+  "authors": [
+    "Andreas Heigl <andreas@heigl.org>"
+  ],
+  "description": "Website for PHPEurope",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "php",
+    "europe",
+    "usergroup"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
